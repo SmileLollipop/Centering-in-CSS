@@ -1,4 +1,5 @@
 # Centering-in-CSS
+···html
 css 实现居中
 
 <!-- 1.如何居中一个浮动元素 -->
@@ -47,3 +48,4 @@ css 实现居中
         border:1px dashed #333;
     }
 </style>
+···
