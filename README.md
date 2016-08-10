@@ -47,4 +47,20 @@ css 实现居中
         border:1px dashed #333;
     }
 </style>
+
+<!-- 2.css实现水居中 -->
+<!--传统的水平居中样式 margin: 0 auto; 这个方法要求使用这个样式的dom元素,必须同时定义宽度width. 如果dom元素内容是不固定的,那么就无法定义宽度.所以这个地方就很难弄.-->
+<style type="text/css">
+.SecondMenuBody{
+    display: table; /*重点就是这个属性,这个样式会告知浏览器当前元素的宽度,采用最小的宽度.不是默认全宽*/
+    margin: 0 auto; 
+}
+    
+</style>
+
+<div id="parent" >
+   <div class="SecondMenuBody">这里的内容永远相对父元素水平居中</div>
+</div>
+
+
 ```
